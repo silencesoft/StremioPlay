@@ -1,0 +1,19 @@
+{
+  "name": "stremioplay",
+  "version": "1.0.0",
+  "description": "Stremio Cast",
+  "main": "stremioplay.js",
+  "bin": {
+    "stremioplay": "stremioplay.js"
+  },
+  "scripts": {
+    "start": "node stremioplay.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "request": "^2.88.0",
+    "valid-url": "^1.0.9"
+  }
+}
